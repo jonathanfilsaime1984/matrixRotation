@@ -22,8 +22,8 @@ public class Main {
         String[] b3 = {".",".",".","."};
         String[] b4 = {".",".",".","."};
 
-        for(int a = 0; a < 4; a++){
-            for(int i = 0; i < 4 ; i++){
+        for(int a = 0; a < a1.length; a++){
+            for(int i = 0; i < b1.length ; i++){
                 if(a == 0 ){ x = 3; temp = a1[i];}
                 if(a == 1 ){ x = 2; temp = a2[i];}
                 if(a == 2 ){ x = 1; temp = a3[i];}
@@ -44,7 +44,7 @@ public class Main {
         print(b4);
 
     }
-    
+
     public static void print(String[] t){
         for(int x = 0; x < 4; x++ ){
             System.out.print(t[x] + ",");
